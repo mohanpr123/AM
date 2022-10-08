@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+int amt,tkt,bal;
+printf("Enter the amount:");
+scanf("%d",&amt);
+printf("enter the number of tickets:");
+scanf("%d",&tkt);
+if(amt/5==0)
+{
+    printf("print the tickets");
+}
+else if(amt/5!=0)
+{
+
+    printf("Insufficient amount");
+}
+else
+{
+    printf("no tickets");
+}
+bal=amt-(tkt*5);
+printf("\nbal=%d",bal);
+    return 0;
+}
